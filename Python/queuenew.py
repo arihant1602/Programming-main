@@ -1,0 +1,15 @@
+import queue
+a = queue.LifoQueue()
+a.put(1)
+a.put(2)
+a.put(3)
+print(a)
+print(a.get())
+print(a.get())
+print(a.get())
+b = queue.PriorityQueue()
+b.put(1)
+b.put(20)
+b.put(15)
+b.put(14)
+

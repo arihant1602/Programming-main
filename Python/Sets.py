@@ -1,0 +1,5 @@
+a1 = set({12, 13, 14})
+a2 = set({14, 15, 16})
+a2 = a2.union(a1)
+a1 = a1.intersection(a2)
+print(a1)

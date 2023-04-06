@@ -55,13 +55,20 @@ def triangle(layers):
             a -= 1
     print("")
         
-
+def space():
+    print("\n\n\n\n")
 
 
 s = "Sample string and some sample text"
 
+space()
 print(strlen(s))
+space()
 print(username("arihant@gmail.com"))
+space()
 triangle(5)
+space()
 print(checkPallindrome(s))
+print(checkPallindrome("oinio"))
+space()
 print(toTitle(s))

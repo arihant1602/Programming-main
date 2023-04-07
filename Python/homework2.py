@@ -17,7 +17,7 @@ def horizontalIsosceles(layers_vertical):
 
 
 def verticalIsosceles(layers):
-    for i in range(layers+1):
+    for i in range(1,layers+1):
         print(" "*(layers-i), "a"*((2*i)-1))
 
 

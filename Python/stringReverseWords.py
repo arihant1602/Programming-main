@@ -13,3 +13,6 @@ print(reverseWords("Hello and my name is Arihant"))
 string = "Hello and my name is Arihant"
 string = string.replace("my", "your")
 print(string)
+
+listt = [*range(100,1000, 100)]
+print(listt)

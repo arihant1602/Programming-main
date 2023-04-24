@@ -1,3 +1,2 @@
-Helloooo
-How uHelloooAgain helloReturn of Hello
-Apeeeennnd
+[1, 2, 3, 4, 5]
+{'name': 'arihant', 'age': '16', 'city': 'mbd'}
